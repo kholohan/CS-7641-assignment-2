@@ -6,7 +6,7 @@ import os
 import csv
 import time
 import sys
-sys.path.append("C:/MOOCs/CS 7641/proj2/ABAGAIL.jar")
+sys.path.append(os.getcwd() + "/ABAGAIL/ABAGAIL.jar")
 from func.nn.backprop import BackPropagationNetworkFactory
 from shared import SumOfSquaresError, DataSet, Instance
 from opt.example import NeuralNetworkOptimizationProblem
